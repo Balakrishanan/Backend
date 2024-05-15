@@ -11,8 +11,8 @@ const PORT = process.env.PORT || 5001;
 const app = express();
 app.use(
   cors({
-    // origin: ["https://1pm-services.netlify.app"],
-    origin: ["http://localhost:3000"],
+    origin: ["https://funny-chimera-a58c7f.netlify.app"],
+    // origin: ["http://localhost:3000"],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true
   })
